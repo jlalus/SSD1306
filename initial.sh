@@ -14,4 +14,4 @@ cd luma.examples
 sudo -H pip install --upgrade luma.oled
 
 # run example
-sudo python clock.py --i2c-port 0
+sudo python sys_info.py --i2c-port 0
