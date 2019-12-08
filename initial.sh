@@ -1,6 +1,4 @@
-#welcome in initil script!
-#change SSID and PASSWORD to  your names
-#sudo nmcli dev wifi connect "SSID" password "PASSWORD" infname wlan0
+#instalacja ekranu
 cd ~
 sudo apt-get update
 sudo python -m pip install --upgrade pip setuptools wheel
@@ -15,5 +13,3 @@ sudo -H pip install --upgrade luma.oled
 
 # run example
 sudo python ~/SSD1306/luma.examples/examples/clock.py --i2c-port 0
-
-# Y Y
